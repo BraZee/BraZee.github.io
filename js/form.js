@@ -53,11 +53,11 @@ $(document).ready(function() {
       //load json data from server and output message
       if(response != 200) {
         console.log('error');
-        output = '<div class="error-message"><p class="from">'+response.text+'</p></div>';
+        output = '<div class="error-message"><p class="from">An error occured. Please try again.</p></div>';
 
       } else {
         console.log('no error');
-        output = '<div class="success-message"><p class="seuccses">'+response.text+'</p></div>';
+        output = '<div class="success-message"><p class="seuccses">Thank you '+user_name+'. We\'ll get back to you shortly.</p></div>';
 
         //reset values in all input fields
         $('#email-form input').val('');

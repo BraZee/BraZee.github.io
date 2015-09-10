@@ -1213,10 +1213,11 @@ p {
 }
 .seuccses {
   margin-bottom: 14px;
+  color: #ffffff !important;
 }
 .success-message {
   border-radius: 4px;
-  background-color: #d1d1d1;
+  background-color: #35841B;
   padding-top: 10px;
   padding-bottom: 10px;
 }
